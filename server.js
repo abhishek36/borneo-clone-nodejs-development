@@ -15,7 +15,7 @@ app.use("/", (req, res, next) => {
 const PORT = process.env.PORT || 8000; // port at which server listening
 
 // import routes
-let authRouter = require('../src/routes/auth.routes');
+let authRouter = require('./routes/auth.routes');
 
 // import other routes post comments like etc
 
